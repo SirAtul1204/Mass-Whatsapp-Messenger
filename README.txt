@@ -12,4 +12,9 @@ Somethings are needed to run this program correctly.
   4) Download correct ChromeDriver
 
 #In sourcecode (Mass Whatsapp Messenger.py) in line 18 change the [executable_path =] to the path
-where chromedriver is located  
+where chromedriver is located
+
+#Add numbers in a .csv file as shown in the sample.csv
+You can also edit sample.csv for your use
+
+#if your internet connection is slow increase the sleep time 
