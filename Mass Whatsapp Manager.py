@@ -1,3 +1,4 @@
+# -- Made By SirAtul --
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import urllib.request, urllib.parse, urllib.error
@@ -39,3 +40,5 @@ for contact in contact_file:
     except:
         print("Contact not on whatsapp")
 driver.quit()
+
+# -- Made by SirAtul --
