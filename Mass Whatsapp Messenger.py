@@ -15,7 +15,7 @@ while(contact_file is None):
     except:
         print("File not found!\nTry Again")
 
-driver = webdriver.Chrome(executable_path = "/mnt/e/chromedriver_win32/chromedriver.exe")
+driver = webdriver.Chrome()
 driver.get("https://web.whatsapp.com/")
 time.sleep(10) #Wait period for you to log-in
 serviceurl = "https://wa.me"
